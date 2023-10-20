@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default  function Test(){
+ function Test(){
     const [userName,setUserName]= useState("John");
     const [userAge,setUserAge]=useState(20);
     const [userCollage,setUserCollage]=useState("Holkar");
@@ -25,3 +25,4 @@ export default  function Test(){
         </>
     )
 }
+export default Test

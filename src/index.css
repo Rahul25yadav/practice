@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+   
+}
+
+.Login-form{
+  background-color: aqua;
+  width: 27%;
+  height: 61vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 2px 2px 5px aqua;
+}
+.Second-form{
+  padding: 1px;
+
+}
+.Second-form label{
+ padding: 5px;
+ font-size: 17px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.Second-form  input{
+  padding: 3px;
+  margin: 2px;
+  border: none;
+}
+.btn button{
+  padding-left: 10px;
+  padding-right: 20px;
+  padding: 7px;
+  width: 196px;
+  border: none;
+  border-radius: 3px;
+  color: rgb(7, 8, 8);
+  font-weight: 700;
+  background-color: orange;
+  box-shadow: 2px 2px 4px orange ;
 }

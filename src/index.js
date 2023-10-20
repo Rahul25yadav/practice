@@ -3,21 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from './Home';
-import About from './About';
-import Price from './Price';
-import Card from './Card';
+import Login from './Login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
-    <About/>
-    <Price/>
-    
-    <Card/>
-    <App/>
+   <App/>
+   
   </React.StrictMode>
 );
 

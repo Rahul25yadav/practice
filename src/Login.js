@@ -32,7 +32,7 @@ function Login() {
           <input type="email" placeholder="enter email"   onChange={(e)=>setUserData({...userData,userEmail:e.target.value})} />
           <br/>
     
-          <label htmlFor=""> Enter the userAddress : </label>
+          <label htmlFor=""> Enter the userAddress: </label>
           <br/>
           <input type="text" placeholder="enter address"   onChange={(e)=>setUserData({...userData,userAddress:e.target.value})} />
           <br/>
